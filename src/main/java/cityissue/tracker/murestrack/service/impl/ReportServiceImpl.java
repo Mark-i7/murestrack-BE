@@ -95,9 +95,9 @@ public class ReportServiceImpl implements ReportService {
             table.addCell(createTableCell( report.getTitle(), BaseColor.WHITE, valueFont));
             table.addCell(createTableCell("Description", BaseColor.LIGHT_GRAY, propertyFont));
             table.addCell(createTableCell(report.getDescription(), BaseColor.WHITE, valueFont));
-            table.addCell(createTableCell( "Version", BaseColor.LIGHT_GRAY, propertyFont));
+            table.addCell(createTableCell( "Category", BaseColor.LIGHT_GRAY, propertyFont));
             table.addCell(createTableCell( report.getCategory().toString(), BaseColor.WHITE, valueFont));
-            table.addCell(createTableCell("Fixed-in Version", BaseColor.LIGHT_GRAY, propertyFont));
+            table.addCell(createTableCell("Location", BaseColor.LIGHT_GRAY, propertyFont));
             table.addCell(createTableCell(report.getLocation(), BaseColor.WHITE, valueFont));
             table.addCell(createTableCell( "Target date", BaseColor.LIGHT_GRAY, propertyFont));
             table.addCell(createTableCell( report.getTargetDate().toString(), BaseColor.WHITE, valueFont));
